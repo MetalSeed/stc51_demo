@@ -7,8 +7,7 @@
 #include<reg52.h>
 #define uchar unsigned char   	//这里用"uchar"代替"unsigned char"，"uchar"用来定义无符号字符型数。
 #define uint  unsigned int	//"uint"用来定义无符号整型数。
-sbit Show_LED = P0^0;		//用来声明P1.0口为程序所要控制的端口,"sbit"是KEIL专门用来声明某位IO口											  
-
+sbit Show_LED = P0^0;		//用来声明P1.0口为程序所要控制的端口,"sbit"是KEIL专门用来声明某位IO口
 /********************************************************************
 * 名称 : Main()
 * 功能 : 实现灯的闪烁
